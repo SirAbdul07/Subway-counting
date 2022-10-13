@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    font-family: sans-serif;
+}
+
+.container{
+    background: yellow;
+    width: 300px;
+    padding: 1.5em 2em;
+    border-radius: 7px;
+    /* background-color: black; */
+    box-shadow: 5px 8px 9px -2px rgba(0, 0, 0, 0.70);
+}
+
+h1{
+    font-size: 31px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    font-size: 50px;
+    margin: 20px 90px;
+}
+
+.button{
+    display: flex;
+}
+
+button{
+    border: none;
+    padding: 10px 0;
+    color: white;
+    font-weight: bolder;
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    box-shadow: 5px 8px 9px -2px rgba(0, 0, 0, 0.70);
+    cursor: pointer;
+}
+
+button:hover{
+    padding: 15px 2px;
+}
+
+
+#increment{
+    background-color: darkred;
+    margin-bottom: 1em;
+}
+
+#decrement{
+    background-color: darkred;
+    margin-bottom: 1em;
+}
+
+#save{
+    background: darkgreen;
+    margin-bottom: 2em;
+    text-align: center;
+    justify-content: center;
+}
+
+/* #clear{
+    background: darkgreen;
+    margin-bottom: 2em;
+} */
+
+p{
+    font-weight: bolder;
+    font-size: 19px;
+}
