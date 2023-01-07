@@ -1,2 +1,2 @@
 # Subway-counting
-a easy subway counting web app
+an easy subway counting web app
